@@ -45,6 +45,62 @@ except:
 #     print("{:<10}{:<16}{:<10}".format(i[0],i[1],i[2]))
 
 
+# data=con.execute("select * from student where age=11")
+# print("{:<10}{:<16}{:<10}".format("age","name","mark"))
+# for i in data:
+#     print("{:<10}{:<16}{:<10}".format(i[0],i[1],i[2]))
+
+
+
+# age=int(input("age"))
+# data=con.execute("select * from student where age=?",(age))
+# print("{:<10}{:<16}{:<10}".format("age","name","mark"))
+# for i in data:
+#     print("{:<10}{:<16}{:<10}".format(i[0],i[1],i[2]))
+
+
+
+# data=con.execute("select * from student where age>=12")
+# print("{:<10}{:<16}{:<10}".format("age","name","mark"))
+# for i in data:
+#     print("{:<10}{:<16}{:<10}".format(i[0],i[1],i[2]))
+
+
+
+
+
+# data=con.execute("select * from student where mark<=25")
+# print("{:<10}{:<16}{:<10}".format("age","name","mark"))
+# for i in data:
+#     print("{:<10}{:<16}{:<10}".format(i[0],i[1],i[2]))
+
+
+# data=con.execute("update student set age=23 where age=22")
+# con.commit()
+# data=con.execute("select * from student")
+# print("{:<10}{:<16}{:<10}".format("age","name","mark"))
+# for i in data:
+#     print("{:<10}{:<16}{:<10}".format(i[0],i[1],i[2]))
+
+
+
+# data=con.execute("delete from student where name='appu'")
+# con.commit()
+# data=con.execute("select * from student")
+# print("{:<10}{:<16}{:<10}".format("age","name","mark"))
+# for i in data:
+#     print("{:<10}{:<16}{:<10}".format(i[0],i[1],i[2]))
+
+
+
+# name=str(input("name"))
+# data=con.execute("delete from student where name='anu'")
+# con.commit()
+# data=con.execute("select * from student where name=?",(name))
+# print("{:<10}{:<16}{:<10}".format("age","name","mark"))
+# for i in data:
+#     print("{:<10}{:<16}{:<10}".format(i[0],i[1],i[2]))
+
 
 
 
@@ -68,11 +124,11 @@ except:
 
 
 
-data=con.execute("select name,sum(mark)from student group by name")
-print("{:<10}{:<16}{:<10}".format("age","name","mark"))
-for i in data:
-    print(i)
-    # print("{:<10}{:<16}{:<10}".format(i[0],i[1],i[2]))
+# data=con.execute("select name,sum(mark)from student group by name")
+# print("{:<10}{:<16}{:<10}".format("age","name","mark"))
+# for i in data:
+#     print(i)
+#     # print("{:<10}{:<16}{:<10}".format(i[0],i[1],i[2]))
 
 
 
