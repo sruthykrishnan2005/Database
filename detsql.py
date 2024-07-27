@@ -32,6 +32,6 @@ except:
 
 
 
-data=con.execute("select student.name,student.age,student.mark,details.place,details.cont_no,details.address from student cross join details")
-for i in data:
-    print(i)
+# data=con.execute("select student.name,student.age,student.mark,details.place,details.cont_no,details.address from student cross join details")
+# for i in data:
+#     print(i)
